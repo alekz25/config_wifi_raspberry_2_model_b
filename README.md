@@ -6,7 +6,7 @@ resultado ::: Linux raspberrypi 4.1.20-v7+ #862 SMP Sat Mar 19 20:37:37 GMT 2018
 
 En mi caso el Kernel es::: [4.1.20-v7] y el Build ::: [862]
 
-b) Buscar el drivar en la siguiente ruta, descargarlo y pegarlo en alguna ruta de tu raspberry pi:::
+b) Buscar el driver en la siguiente ruta, descargarlo y pegarlo en alguna ruta de tu raspberry pi:::
 http://downloads.fars-robotics.net/wifi-drivers/8192eu-drivers/
 
 El mio era el::: 8192eu-4.1.20-v7-862.tar.gz
@@ -18,6 +18,8 @@ d)Instalar el driver desde consola con el siguiente comando:::
 ./install.sh
 
 e) Debera salir mensaje exitoso, y reiniciar con el comando en consola::: reboot
+
+f) Al iniciar, en la parte superior derecha debera aparecer la opcion para conectarse a redes wifi
 
 Recursos:::
 https://eu.dlink.com/es/es/products/dwa-131-wireless-n-nano-usb-adapter
